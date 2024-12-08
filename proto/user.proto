@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package  = "./proto-pkg";
+option go_package  = "./pkg";
 
 service UserService {
     rpc GetUser (GetUserRequest) returns (GetUserResponse);
